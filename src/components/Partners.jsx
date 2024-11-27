@@ -2,8 +2,8 @@ import React from "react";
 import Apple from "../../public/assets/apple.svg";
 import Dell from "../../public/assets/dell.svg";
 import HP from "../../public/assets/hp.svg";
-import Samsung from "../../public/assets/Samsung.svg";
-import Sony from "../../public/assets/Sony.svg";
+import Samsung from "../../public/assets/samsung.svg";
+import Sony from "../../public/assets/sony.svg";
 import Lenovo from "../../public/assets/brand-lenovo.svg";
 
 const Partners = () => {
