@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-	baseURL: process.env.REACT_APP_API_URL,
+	baseURL: 'https://az-tronics-default-rtdb.europe-west1.firebasedatabase.app',
 	headers: { 'Content-Type': 'application/json' }
 });
 
