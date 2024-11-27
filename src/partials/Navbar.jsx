@@ -18,18 +18,18 @@ const Navbar = () => {
 	const goToHomepage = (e) => {
 		e.preventDefault();
 		navigate("/");
-		setMenuOpen(false); // Close menu after navigating
+		setMenuOpen(false);
 	};
 
 	const goToProducts = (e) => {
 		e.preventDefault();
 		navigate("/products");
-		setMenuOpen(false); // Close menu after navigating
+		setMenuOpen(false);
 	};
 
 	const goToCart = () => {
 		navigate("/shoppingcart");
-		setMenuOpen(false); // Close menu after navigating
+		setMenuOpen(false);
 	};
 
 	return (
